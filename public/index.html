@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example of socket.io</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="chat-logo.png" alt="logo">
+                <span>ChatLog</span>
+            </div>
+            <ul id ="messages" class="messages">
+        
+            </ul>
+            <form id="msg-form">
+                
+                <input id="message" class="message_input" placeholder="Type your message here..." />
+                
+                <button class="send_message">
+                   Send
+                </button>
+              </form>
+        </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rexeze/formatTimeStamp/src/index-cdn.js"></script>
+<script src="/js/socket.js"></script>
+<script src="/js/chat.js"></script>
+    </body>
+</html>
